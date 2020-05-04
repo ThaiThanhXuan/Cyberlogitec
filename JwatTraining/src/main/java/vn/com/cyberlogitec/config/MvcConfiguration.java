@@ -22,8 +22,6 @@ public class MvcConfiguration implements WebMvcConfigurer {
 		return resolver;
 	}
 	
-	@Bean
-	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
