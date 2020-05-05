@@ -26,4 +26,6 @@ public class HomeController {
 	public ModelAndView greeting(@RequestParam(name="name", required=false, defaultValue="World") String name) {
 		return new ModelAndView("greeting");
 	}
+	
+	
 }

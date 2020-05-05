@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JwatTraining:war">
+    <output-path>$PROJECT_DIR$/JwatTraining/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JwatTraining</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JwatTraining.war">
+      <element id="artifact" artifact-name="JwatTraining:war exploded" />
+    </root>
+  </artifact>
+</component>
